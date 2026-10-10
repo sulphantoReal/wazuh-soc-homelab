@@ -7,9 +7,9 @@ access, not for inter-VM traffic.
 
 | VM | Role | OS | IP (soclab) | Specs |
 |----|------|----|----|----|
-| VM1 | Wazuh Manager | Ubuntu Server 24.04 | 192.168.56.10 | 50GB, 4GB RAM, 2 CPU |
+| VM1 | Wazuh Manager | Ubuntu Server 24.04 | 192.168.56.10 | 50GB, 2GB RAM, 2 CPU |
 | VM2 | Victim | Ubuntu Server 24.04 | 192.168.56.20 | 25GB, 2GB RAM, 2 CPU |
-| VM3 | Attacker | Kali Linux | 192.168.56.30 | 40GB, 4GB RAM, 2 CPU |
+| VM3 | Attacker | Kali Linux | 192.168.56.30 | 40GB, 2GB RAM, 2 CPU |
 
 ## Dashboard access
 Wazuh dashboard reachable from the host via NAT port forwarding
